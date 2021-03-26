@@ -67,8 +67,12 @@ html,body{
     background-color: red;
 }
 
+.form-group{
+    padding: 20px 0;
+}
+
 .form-group label{
-    padding: 15px 0;
+    padding-bottom: 15px;
 }
 
 .content-bg{
@@ -86,6 +90,148 @@ section.chamada{
     font-size: 40px;
 }
 
+section.sobre{
+    background-color: rgb(236, 236, 236);
+}
+
 .close{
     width: 30px;
 }
+
+#row-informacoes{
+    text-align: center;
+}
+
+.wraper-informacoes{
+    display: inline-block;
+    max-width: 700px;
+    padding: 20px 0;
+}
+
+.wraper-informacoes h2{
+    text-align: left;
+}
+
+.wraper-informacoes p{
+    max-width: 600px;
+    text-align: left;
+}
+
+.modal-footer{
+    padding: 0;
+}
+
+section.diferenciais{
+    padding: 30px 2%;
+}
+
+section.diferenciais p{
+    text-align: left;
+}
+
+section.diferenciais h2{
+    padding: 10px;
+    border-bottom: 2px dotted #0d6efd;
+}
+
+section.diferenciais h2{
+    color: #0d6efd;
+}
+
+section.convite{
+    padding: 15px 2%;
+    background-color: #0d6efd;
+}
+
+section.convite h2{
+    font-size: 35px;
+    color: white;
+}
+
+section.convite i{
+    padding: 0 10px;
+}
+
+#signup{
+    color: rgb(139, 138, 138);
+    background-color: white;
+    width: 30%;
+    min-width: 150px;
+    height: 45px;
+    margin: 0;
+    font-weight: 700;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+section.convite input[type=email]{
+    width: 50%;
+    height: 45px;
+    padding: 0 10px;
+    outline: #0d6efd;
+}
+
+section.contato{
+    padding: 30px 2%;
+    background-color: rgb(236, 236, 236);
+}
+
+section.contato .row{
+}
+
+section.contato form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.contato form .mb-3{
+    width: 80%;
+    display: inline-block;
+}
+
+
+footer{
+    padding: 10px 2%;
+    background-color: #0d6efd;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .col-md-6{
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 767px){
+    section.contato form{
+        width: 100%;
+        text-align: left;
+    }
+    section.contato form .mb-3{
+        width: 100%;
+        display: inline-block;
+    }
+
+    section.convite input, button{
+        display: block;
+    }
+
+    .email-convite{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+ 
+}
+
+
+
+
+
